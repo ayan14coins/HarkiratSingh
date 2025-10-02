@@ -14,5 +14,4 @@ app.get("/", function (req, res){
     let n = req.query.n;
     res.send(continueSum(n).toString());
 })
-
 app.listen(port);
